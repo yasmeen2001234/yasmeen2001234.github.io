@@ -46,6 +46,7 @@ function Home() {
         </Container>
    
       </Container>
+      <div style={{ marginTop: '85px' }}></div>
       <Projects />
    
     </section>
