@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/controller.svg";
-
+import home2Logo from "../../Assets/homeewy.png";
 
 import Projects from "../Projects/Projects";
 
@@ -11,9 +11,11 @@ import Tilt from "react-parallax-tilt";
 function Home() {
   return (
     <section>
+     
       <Container fluid className="home-section" id="home">
-        
+      
         <Container className="home-content">
+          
           <Row>
             <Col md={7} className="home-header">
            
@@ -37,8 +39,13 @@ function Home() {
             <Col md={5} style={{ paddingBottom: 20 }} >
             <Tilt>
               <img src={homeLogo} className="img-fluid" style={{ width: '3500px', height: 'auto' }} alt="logo" />
-            </Tilt>
             
+            </Tilt>
+          
+              
+              <img src={home2Logo}  className="img-overlay" alt="logo" />
+            
+        
             </Col>
           
           </Row>
@@ -46,9 +53,11 @@ function Home() {
         </Container>
    
       </Container>
+      
       <div style={{ marginTop: '85px' }}></div>
       <Projects />
    
+
     </section>
   );
 }

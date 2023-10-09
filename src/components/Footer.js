@@ -10,6 +10,8 @@ function Footer() {
   let date = new Date();
   let year = date.getFullYear();
   return (
+    <>
+   <div style={{ marginTop: '85px' }}></div>
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
@@ -46,6 +48,7 @@ function Footer() {
         </Col>
       </Row>
     </Container>
+    </>
   );
 }
 
