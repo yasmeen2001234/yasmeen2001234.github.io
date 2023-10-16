@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import pdf from "../../Assets/../Assets/Yasmeen_resume.pdf";
+import pdf from "../../Assets/../Assets/Yasmeen_Awwad_Resume.pdf";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
@@ -23,7 +23,7 @@ function ResumeNew() {
             href={pdf}
             target="_blank"
             style={{ maxWidth: "250px" }}
-            download="Yasmeen_resume.pdf"
+            download="Yasmeen_Awwad_Resume.pdf"
           >
           
             &nbsp;Download CV
@@ -42,7 +42,7 @@ function ResumeNew() {
             href={pdf}
             target="_blank"
             style={{ maxWidth: "250px" }}
-            download="Yasmeen_resume.pdf"
+            download="Yasmeen_Awwad_Resume.pdf"
           >
           
             &nbsp;Download CV

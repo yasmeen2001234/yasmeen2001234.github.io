@@ -26,11 +26,9 @@ function Home() {
               </h1>
               
               <h2 style={{ fontSize: "16em" }} className="home-about-body">
-              Passionate about 3D game development, I possess skill in crafting immersive game experiences with 
-              dynamic mechanics 
-              and realistic AI using Unity C#. Additionally,
-              I create 3D web visualizations via React's powerful framework, 
-              elevating user engagement through interactive and visually appealing content.
+              I'm a dedicated Unity C# developer with a deep passion for creating immersive, 
+              interactive experiences. My journey in game development began with a strong love for Unity, 
+              and it has been the driving force behind my work.
 
               </h2>
              
