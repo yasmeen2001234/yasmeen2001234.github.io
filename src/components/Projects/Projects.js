@@ -53,7 +53,7 @@ function Projects() {
           >  
             <ProjectCard
              style={{ paddingBottom: "20px"}}
-              videoId="LJv8-jcIJ8c"
+              videoId="LVCWeeGUJ4Y"
               isBlog={false}
               title="Zombie survival game"
               description={
